@@ -2,11 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - entry point
-* description - void = no value
+*main - entry point
+*Description - void = no value
 *retun: 0 - success
 */
-int main()
+/* betty style doc for function main goes there */
+int main(void)
 {
 int n;
 
