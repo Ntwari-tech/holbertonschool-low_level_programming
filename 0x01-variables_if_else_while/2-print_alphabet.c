@@ -11,10 +11,10 @@
 *Return: 0 - Success
 *
 */
-char  main(void)
+int main(void)
 {
 char c = 'a';
-for (char c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 putchar(c);
 putchar('\n');
 return (0);
