@@ -13,7 +13,7 @@
 */
 int main(void)
 {
-char ot = '0';
+int ot = '0';
 
 for (ot = '0'; ot <= '9'; ot++)
 
