@@ -2,11 +2,11 @@
 /**
  * _puts - F() name
  *
- * Description: f() to retuen the length of a string
+ * Description: f() that prints a string
  *
  * @str: pointer
  *
- * Return:an int
+ * Return:void
  */
 void _puts(char *str)
 {
