@@ -1,34 +1,36 @@
 #include "holberton.h"
 
 /**
- * is_prime_number- f() name
- * @n: var n
+ * checkprime - f() name
+ * @i: incrementing variable
+ * @n: number to check
  *
- * Return: 1 for n = prime numbeer, else 0
+ * Return: 1 if prime 0 if not prime
  */
-
-int is_prime_number(int n)
+int checkprime(int i, int n)
 {
-	return (another_function(n, 2));
+
+	if (n % i == 0)
+		return (0);
+
+if (i * i > n)
+return (1);
+
+	return (checkprime(i + 1, n));
 }
 
 /**
- * another_function- "main" function
- * @n: int type
- * @a: int type
- * Return: new func
+ * is_prime_number - checks if number is prime
+ * @n: the number to check
+ *
+ * Return: 1 if prime 0 if not
  */
-
-int another_function(int n, int a)
+int is_prime_number(int n)
 {
-	if (n % a == 0)
-	{
+
+	if (n < 2)
 		return (0);
-	}
-	if (a >= n)
-	{
-		return (1);
-	}
-	else
-		return (another_function(n, a + 1));
+
+	return (checkprime(2, n));
+
 }
