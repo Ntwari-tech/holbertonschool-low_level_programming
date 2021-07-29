@@ -1,0 +1,1 @@
+This project is about is about Static Lib
