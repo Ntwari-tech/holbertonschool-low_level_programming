@@ -17,13 +17,14 @@ for (y = 0; accept[x] != '\n'; y++)
 {
 if (accept[y] == s[x])
 {
-break
+break;
 }
 if (accept[y] == '\0')
 {
 return (x);
 }
-}
 
+}
+}
 return (0);
 }
