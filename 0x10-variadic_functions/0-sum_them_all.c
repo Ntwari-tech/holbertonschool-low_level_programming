@@ -3,7 +3,7 @@
 
 /**
 * sum_them_all - returns the sum of all its parameters
-* @n: vairable
+* @n: unsigned int
 * @...: place of the last parameter
 * Return: If n == 0, return 0
 */
