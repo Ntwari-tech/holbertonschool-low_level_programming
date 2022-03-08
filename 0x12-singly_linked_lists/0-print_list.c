@@ -8,7 +8,7 @@
 *
 */
 
-print_lissize_t print_list(const list_t *h)
+size_t print_list(const list_t *h)
 {
 int find;
 if (h == NULL)
