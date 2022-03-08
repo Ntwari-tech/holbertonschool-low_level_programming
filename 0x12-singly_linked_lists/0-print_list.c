@@ -20,7 +20,7 @@ for (find = 0; h != NULL; h = h->next, find++)
 if (h->str == NULL)
 printf("[%i] %s\n", 0, "(nil)");
 else
-printf("%i %s\n", h->len, h->str);
+printf("[%i] %s\n", h->len, h->str);
 }
 return (find);
 }
