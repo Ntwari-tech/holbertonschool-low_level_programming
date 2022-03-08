@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * print_list - prints all elements
- * @h: pointer
- * return: the number of nodes
- *
- */
+* print_list - prints all elements.
+* @h: pointer
+*
+* Return: the number of nodes
+*
+*/
 
-size_t print_list(const list_t *h)
-
+print_lissize_t print_list(const list_t *h)
 {
 int find;
 if (h == NULL)
