@@ -10,16 +10,23 @@
 
 size_t print_list(const list_t *h)
 {
-int find;
-if (h == NULL)
-return (0);
 
-for (find = 0; h != NULL; h = h->next, find++)
+size_t nodes = 0;
+
+while (h != NULL)
 {
-if (h->str == NULL)
-printf("[%i] %s\n", 0, "(nil)");
-else
-printf("[%i] %s\n", h->len, h->str);
+if (h->str != NULL)
+{
+
+printf("[%d] %s\n", h->len, h->str);
 }
-return (find);
+else
+{
+
+printf("[0] (nil)\n");
+}
+nodes++;
+h = h->next;
+}
+return (nodes);
 }
