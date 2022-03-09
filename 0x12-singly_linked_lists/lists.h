@@ -6,20 +6,22 @@
 #include <stddef.h>
 
 /**
-* struct list_s -
-* @str : string 
+* struct list_s - linked list
+* @str : string
 * @len : string length
 * @next : pointer
+*
+* Description: lists nodes
 */
 
 typedef struct list_s
 
 {
-  char *str;
-  unsigned int len;
-  struct list_s *next; 
+char *str;
+unsigned int len;
+struct list_s *next;
 
-}list_t;
+} list_t;
 
 int _putchar(char c);
 size_t print_list(const list_t *h);
