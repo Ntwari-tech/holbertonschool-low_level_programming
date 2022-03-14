@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
-* listint_len returns the number of lment
+* listint_len -  rtns the number of lment
 * @h: pointer
-* Return: returns find 
+* Return: returns find
 */
 
 size_t listint_len(const listint_t *h)
