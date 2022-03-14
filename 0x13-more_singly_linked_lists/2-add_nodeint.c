@@ -2,7 +2,7 @@
 /**
 * add_nodeint - adds a new node
 * @head: pointer
-* @n: variable 
+* @n: variable
 * Return: the addy of new lment / NULL if it failed
 */
 
